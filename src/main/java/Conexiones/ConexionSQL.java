@@ -16,7 +16,7 @@ public class ConexionSQL {
 
             Connection cn;
             cn = DriverManager.getConnection(url);
-            //JOptionPane.showMessageDialog(null, "Conexión con la base de datos exitosa");
+            
             return cn;
 
         } catch (SQLException e) {
